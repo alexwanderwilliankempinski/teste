@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 1px;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+body {
+
+    background-image: url('../imagens/horizonte-image.jpeg');
+    background-size: cover;
+    color: #dcdcdc;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+section#login-box {
+    position: fixed;
+    top: calc(50% - 200px);
+    left: calc(50% - 400px);
+    width: 800px;
+    height: 400px;
+    padding: 115px 45px;
+    background-color: #1b2127;
+    border-radius: 0.7%;
+    border: 1px ;
+}
+section article#signup {
+    width: 40%;
+}
+section article#signup h1 {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 100;
+}
+section article p {
+    font-weight: 45;
+    padding: 0px;
+    width: 100%;
+    font-size: 15px;
+}
+section article#login {
+    width: 50%;
+height: 120%;
+    position: absolute;
+    top: -10%;
+    right: 45px;
+    padding: 60px 40px;
+    background-color: white;
+    border-radius: 0.7%;
+}
+section article#login {
+    color: #ed8575;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section article#login form {
+    margin-top: 50px;
+}
+article {
+    color: #a39fa5;
+
+}
+
+article a{
+    display: block;
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+    
+}
+.linha {
+    margin-top: 20px;
+    border-bottom: 1px solid lightgrey;
+    color: lightgrey;
+    
+}
+.linha input{
+    border: none;
+    height: 35px;
+    width: 90%;
+    color: lightgrey;
+    outline: none;
+}
+#botoes {
+    border:none;
+}
+#botoes button {
+    display: inline-block;
+    margin-right: -4px;
+    height: 35px;
+    width: 45%;
+
+}
+#login {
+    border: none;
+    margin-left: 5%;
+    background-color: #ed8575;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+}
+#forgot {
+    border:none;
+    background-color: #ffffff;
+    color: lightgrey;
+    outline: none;
+}
+#singup-link {
+    display: inline-block;
+    border: solid #a39fa5;
+    color: #a39fa5;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0%;
+    
+}
+
